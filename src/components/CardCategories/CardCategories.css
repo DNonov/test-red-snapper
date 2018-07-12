@@ -7,12 +7,18 @@
 	display: flex;
 	flex-direction: column;
 	width: 85%;
-	height: 20rem;
-	margin-top: 2rem;
+	height: 310px;
+	margin-top: 20px;
 }
 
 .card-categories-title {
 	font-family: nuOrder-Black;
-	font-size: 1.1rem;
+	font-size: 120%;
 	color: #472681;
+}
+
+@media screen and (max-width: 350px) {
+	.card-categories-title {
+		font-size: 110%;
+	}
 }
