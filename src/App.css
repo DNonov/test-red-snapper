@@ -2,7 +2,8 @@
 	height: 100%;
 	width: 100%;
 	max-width: 550px;
-	margin: auto;
+	position: relative;
+	top: -65px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
