@@ -9,14 +9,37 @@
 	justify-content: center;
 }
 
+.card-info-item:hover > .card-info-item.quantity{
+	color: #7c66a3;
+	font-size: 180%;
+	cursor: pointer;
+}
+
+.card-info-item:hover > .card-info-item.subject{
+	color: #7c66a3;
+	font-size: 120%;
+	cursor: pointer;
+}
+
 .card-info-item.quantity {
 	font-family: nuOrder-Black;
 	text-align: center;
-	font-size: 1.5rem;
+	font-size: 170%;
 	color: #472681;
 }
 
 .card-info-item.subject {
 	font-family: nuOrder-Black;
+	font-size: 100%;
 	color: #472681;
+}
+
+@media screen and (max-width: 350px) {
+	.card-info-item.quantity {
+		font-size: 130%;
+	}
+
+	.card-info-item.subject {
+		font-size: 80%;
+	}
 }
