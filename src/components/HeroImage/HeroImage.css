@@ -1,0 +1,20 @@
+.hero-image-section {
+	display: flex;
+	width: 100%;
+	/* height: 80%; */
+	justify-content: center;
+}
+
+.hero-image-section > img {
+	height: 200%;
+	width: 300%;
+	display: flex;
+}
+
+@-moz-document url-prefix() {
+	.hero-image-section > img {
+		height: 110%;
+		width: 300%;
+		display: flex;
+	}
+}
