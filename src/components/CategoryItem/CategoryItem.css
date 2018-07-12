@@ -1,0 +1,23 @@
+@font-face {
+	font-family: nuOrder-regular;
+	src: url("../../media/NuOrder\ Regular.ttf");
+}
+
+.category-item {
+	display: flex;
+	justify-content: space-between;
+	height: 10rem;
+	margin-top: 2rem;
+	border-bottom: 1px solid #472681;
+}
+
+.category-item > .category {
+ font-family: nuOrder-regular;
+ font-size: 2.2rem;
+ color: #472681;
+}
+
+.category-item > .icon {
+	font-size: 3rem;
+  color: #472681;
+}
