@@ -1,0 +1,7 @@
+.card-info {
+	display: flex;
+	justify-content: space-between;
+	width: 85%;
+	height: 6rem;
+	border-bottom: 1px solid #472681;
+}
