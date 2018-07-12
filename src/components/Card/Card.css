@@ -1,0 +1,17 @@
+.card {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	background-color: #ffffff;
+	border-radius: 1.2rem;
+	margin-top: 10em;
+	width: 98%;
+	height: 100%;
+}
+
+@-moz-document url-prefix() {
+	.card {
+		margin-top: 0em;
+	}
+}
