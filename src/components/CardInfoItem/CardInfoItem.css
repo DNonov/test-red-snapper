@@ -1,0 +1,22 @@
+@font-face {
+	font-family: nuOrder-Black;
+	src: url("../../media/NuOrder\ Heavy.ttf");
+}
+
+.card-info-item {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.card-info-item.quantity {
+	font-family: nuOrder-Black;
+	text-align: center;
+	font-size: 1.5rem;
+	color: #472681;
+}
+
+.card-info-item.subject {
+	font-family: nuOrder-Black;
+	color: #472681;
+}
