@@ -6,7 +6,7 @@ class CategoryItem extends Component {
 		return (
 			<div className="category-item">
 				<span className="category">{this.props.category}</span>
-				<i className="material-icons md-24 icon">keyboard_arrow_right</i>
+				<i className="zmdi zmdi-chevron-right icon"></i>
 			</div>
 		)
 	}
