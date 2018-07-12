@@ -8,7 +8,7 @@
 	flex-direction: column;
 	border-bottom: 1px solid #472681;
 	margin-top: 25px;
-	height: 7.5rem;
+	height: 112px;
 	width: 85%;
 }
 
@@ -31,26 +31,44 @@
 	font-size: 280%;
 	font-weight: 400;
 	font-family: nuOrder-Black;
-	letter-spacing: 0.1rem;
-	margin: 0;
+	cursor: pointer;
+	letter-spacing: 2px;
+	margin: 0 5px;
 }
 
 .row-container > i {
 	color: #472681;
-	margin-top: 1rem;
-	font-size: 2.5rem;
+	margin-top: 10px;
+	font-size: 250%;
 	display: flex;
+	cursor: pointer;
 }
 
 .row-container-follow .add-icon {
 	color: #472681;
-	margin-top: 0.4rem;
-	font-size: 1.7rem;
+	margin-top: 6px;
+	font-size: 180%;
 	display: flex;
+	cursor: pointer;
 }
 
 .row-container-follow > span{
 	color: #472681;
 	font-family: nuOrder-Black;
-	margin: 0.6rem 0.3rem;
+	margin: 10px 6px;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 350px) {
+	.row-container > h1 {
+		font-size: 220%;
+	}
+
+	.row-container > i {
+		font-size: 200%;
+	}
+
+	.card-header {
+		height: 95px;
+	}
 }

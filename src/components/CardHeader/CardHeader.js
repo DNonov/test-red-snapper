@@ -8,10 +8,10 @@ class CardHeader extends Component {
 			<div className="card-header">
 				<div className="row-container">
 					<h1>{this.props.nameTitle}</h1>
-					<i className="material-icons md-24">more_horiz</i>
+					<i className="zmdi zmdi-more"></i>
 				</div>
 				<div className="row-container-follow">
-					<i className="material-icons md-24 add-icon">add_circle_outline</i>
+				<i className="zmdi zmdi-plus-circle-o add-icon"></i>
 					<span>FOLLOW</span>
 				</div>
 			</div>
