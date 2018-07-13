@@ -3,6 +3,7 @@
 	flex-direction: column;
 	flex-wrap: wrap;
 	align-items: center;
+	position: relative;
 	background-color: #ffffff;
 	border-radius: 1.2rem;
 	width: 80%;
