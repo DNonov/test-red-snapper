@@ -3,9 +3,18 @@
 }
 
 .hero-image-section > img {
-	height: 80%;
+	height: 100%;
 	width: 100%;
 	display: flex;
+	cursor: pointer;
+	opacity: 0.85;
+	transform: scale(1.02);
+	transition: all 0.3s ease-out;
+}
+
+.hero-image-section > img:hover {
+	opacity: 1;
+	transform: scale(1);
 }
 
 .arrow-back {
@@ -14,6 +23,7 @@
 	cursor: pointer;
 	top: 12%;
 	right: 30%;
+	z-index: 999;
 	color: #cfcfcf;
 	transition: 0.5 color ease-out;
 }
