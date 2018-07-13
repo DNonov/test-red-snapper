@@ -6,9 +6,10 @@
 	height: 100%;
 	width: 100%;
 	display: flex;
+	position: relative;
 	cursor: pointer;
 	opacity: 0.85;
-	transform: scale(1.02);
+	transform: scale(1.01);
 	transition: all 0.3s ease-out;
 }
 
@@ -19,13 +20,13 @@
 
 .arrow-back {
 	display: flex;
-	position: relative;
+	position: absolute;
 	cursor: pointer;
-	top: 12%;
-	right: 30%;
+	top: 60px;
+	left: 65px;
 	z-index: 999;
 	color: #cfcfcf;
-	transition: 0.5 color ease-out;
+	transition: 0.5 all ease-out;
 }
 
 .arrow-back:hover {
@@ -44,11 +45,17 @@
 
 @media screen and (max-width: 450px) {
 	.arrow-back {
-		top: 100px;
+		top: 40px;
+		left: 25px;
 	}
 }
 
 @media screen and (max-width: 350px) {
+	.arrow-back {
+		top: 40px;
+		left: 25px;
+	}
+
 	.arrow-back > i {
 		font-size: 300%;
 	}
