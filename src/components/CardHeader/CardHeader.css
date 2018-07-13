@@ -59,6 +59,18 @@
 	cursor: pointer;
 }
 
+.border-bottom {
+	display: flex;
+	height: 1px;
+	width: 0%;
+	background-color: #472681;
+	transition: all 0.3s ease-out;
+}
+
+.row-container:hover ~ .border-bottom {
+	width: 100%;
+}
+
 @media screen and (max-width: 350px) {
 	.row-container > h1 {
 		font-size: 220%;

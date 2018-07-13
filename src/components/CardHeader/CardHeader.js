@@ -10,6 +10,7 @@ class CardHeader extends Component {
 					<h1>{this.props.nameTitle}</h1>
 					<i className="zmdi zmdi-more"></i>
 				</div>
+				<div className="border-bottom"></div>
 				<div className="row-container-follow">
 				<i className="zmdi zmdi-plus-circle-o add-icon"></i>
 					<span>FOLLOW</span>
