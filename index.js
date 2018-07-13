@@ -6,4 +6,5 @@ app.get("*", (req, res) => {
 	res.sendFile(path.resolve("build", "index.html"));
 });
 
-app.listen(3030);
+const PORT = process.env.PORT || 3030;
+app.listen(PORT);
