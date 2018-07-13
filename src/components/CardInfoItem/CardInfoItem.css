@@ -7,28 +7,27 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	cursor: pointer;
 }
 
-.card-info-item:hover > .card-info-item.quantity{
-	color: #7c66a3;
+.card-info-item:hover > .card-info-item-quantity {
+	color: #300083;
 	font-size: 180%;
-	cursor: pointer;
 }
 
-.card-info-item:hover > .card-info-item.subject{
-	color: #7c66a3;
+.card-info-item:hover > .card-info-item-subject {
+	color: #300083;
 	font-size: 120%;
-	cursor: pointer;
 }
 
-.card-info-item.quantity {
+.card-info-item-quantity {
 	font-family: nuOrder-Black;
 	text-align: center;
 	font-size: 170%;
 	color: #472681;
 }
 
-.card-info-item.subject {
+.card-info-item-subject {
 	font-family: nuOrder-Black;
 	font-size: 100%;
 	color: #472681;
